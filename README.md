@@ -44,7 +44,7 @@ This repository showcases my skills, projects, and journey as a developer.
 
 
 ## 🔗 Live Demo
-(akash-portfolio-dev-creator-future.netlify.app)
+(https://akash-portfolio-dev-creator-future.netlify.app)
 
 
 
