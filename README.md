@@ -5,7 +5,7 @@ This repository showcases my skills, projects, and journey as a developer.
 
 
 ## 🚀 About Me
-- 🎓 I am a Computer Science / Engineering student
+- 🎓 I am an Engineering student
 - 💡 Interested in Web Development and Problem Solving
 - 🌱 Currently learning Full Stack Development
 - 🎯 Goal: Become a skilled Software Developer
