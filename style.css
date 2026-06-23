@@ -49,7 +49,8 @@ html {
   gap:30px;
   
   background:#3B82F6;
-  width:220px;
+  width:100%;
+  max-width:220px;
   
   font-size:20px;
   
@@ -88,7 +89,12 @@ html {
 
 #hero h1{
   font-size:60px;
-  color:white;
+  background-color:#111827;
+  color:#FFFFFF;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
 }
 
 #hero h2{
@@ -101,6 +107,7 @@ html {
   margin-top:20px;
   font-size:18px;
 }
+#hero
       #hero {
         background-color:#111827;
         color:#FFFFFF;
@@ -110,10 +117,6 @@ html {
         justify-content:center;
         align-items:center;
       }
-      @media(max-width:768px){
-  #hero h1{
-    font-size:40px;
-  }
       #about {
         background-color: #111827;
         color:#FFFFFF;
@@ -142,6 +145,10 @@ html {
         background-color:#0F172A;
         color:#A78BFA;
       }
+        @media(max-width:768px){
+  #hero h1{
+    font-size:40px;
+  }
       button{
   padding:12px 25px;
   border:none;
@@ -158,9 +165,6 @@ button:hover{
   background:#2563EB;
   transform:scale(1.05);
 }
-      span {
-        color:#38BDF8
-      }
       .card{
   background:#1E293B;
   margin-top:10px;
@@ -201,8 +205,9 @@ footer{
   background:#020617;
 
   padding:20px;
-
-  text-align:center;
+   
+  display:flex;
+  justify-content:center;
 
   color:#94A3B8;
 }
